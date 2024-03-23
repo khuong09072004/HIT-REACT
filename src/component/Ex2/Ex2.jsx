@@ -11,9 +11,9 @@ const ToggleButton = () => {
     return (
       <div className="toggle-container">
         <button className={`toggle-button ${isToggled ? 'toggled' : ''}`} onClick={handleClick}>
-          <span className="on">ON</span>
+          <span className="on"></span>
           <div className="toggle-circle"></div>
-          <span className="off">OFF</span>
+          <span className="off"></span>
         </button>
       </div>
     );
